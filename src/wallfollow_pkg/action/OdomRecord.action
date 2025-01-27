@@ -1,0 +1,6 @@
+# OdomRecord.action
+float32 distance
+---
+geometry_msgs/Point32[] list_of_odoms
+---
+float32 current_total

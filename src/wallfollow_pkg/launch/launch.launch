@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="wallfollow_pkg" type="find_wall.py" name="find_wall" output="screen"/>
+</launch>

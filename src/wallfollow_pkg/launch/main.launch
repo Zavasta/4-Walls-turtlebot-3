@@ -1,0 +1,10 @@
+<launch>
+
+  <!-- Include another launch file -->
+  <include file="$(find wallfollow_pkg)/launch/launch.launch"/>
+  <include file="$(find wallfollow_pkg)/launch/odom.launch"/>
+
+  <!-- Launch the wall follower node -->
+  <node pkg="wallfollow_pkg" type="wall_follower.py" name="wall_follower" output="screen"/>
+
+</launch>

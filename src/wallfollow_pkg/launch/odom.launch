@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="wallfollow_pkg" type="odom_record_action_server.py" name="record_odom" output="screen"/>
+</launch>
